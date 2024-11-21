@@ -38,6 +38,7 @@ main{
 aside{
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 aside img{
     width: 200px;
@@ -57,7 +58,7 @@ aside h2{
     top: 589px;
     left: 78px;
 }
-/*Class selectors*/
+/* Class selectors */
 .box{
     margin: 1rem;
     border: 1px dotted var(--border);
