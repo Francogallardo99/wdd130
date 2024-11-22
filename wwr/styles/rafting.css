@@ -9,7 +9,7 @@
 }
 header{
     background-color: var(--principal-color);
-    color: ver var(--principal-color);
+    color: var(--principal-color);
     padding: 20px;
     text-align: center;
     border-bottom:dotted 2px black;
