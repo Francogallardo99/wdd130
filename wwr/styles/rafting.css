@@ -24,7 +24,7 @@ p{
     text-decoration: none;
 }
 .hero div{
-    position: relative;
+    position: absolute;
 }
 .hero h1{
     position: absolute;
