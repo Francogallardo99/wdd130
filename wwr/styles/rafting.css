@@ -1,5 +1,5 @@
 *{
-    padding: 1px;
+    padding: 0.5px;
 }
 :root{
     --principal-color : #759fbc;
@@ -10,9 +10,28 @@
 header{
     background-color: var(--principal-color);
     color: var(--principal-color);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    border-bottom:dotted 2px black;
+    border: 3px solid var(--assent-1);
+    display: grid;
+    grid-template-columns: 90px 3fr 2fr ;
+    align-items: center;
+    font-size: 18px;
+}
+header img{
+    max-width: 80px;
+    height: auto;
+
+}
+header h1{
+    color: var(--assent-2);
+    font-size: 30px;
+    text-align: left;
+}
+.navigation{
+    display: flex;
+    gap: 100px;
+    text-align: right;
 }
 p{
     background-color: var(--assent-1);
@@ -30,7 +49,7 @@ p{
     position: absolute;
     color: var(--principal-color);
     left: 38%;
-    bottom: 38%;
+    bottom: 60%;
     font-size: 3rem;
 }
 .hero img{
@@ -41,7 +60,7 @@ p{
 
 .hero article {
     position: absolute;
-    top: 920px;
+    top: 720px;
     left: 100px;
     background-color: rgba(0, 0, 0, 0.6);
     color: white; 
@@ -58,4 +77,58 @@ p{
     line-height: 1.5;
     margin: 0;
     
+}
+.section1{
+    text-align: center;
+    border: 3px solid var(--assent-1);
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.section1 h1 {
+    grid-row: 3; 
+    font-size: 3em;
+    margin: 0;
+}
+.content {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px;
+    align-items: center;
+}
+.content img {
+    max-width: 100%; 
+    height: auto;
+}
+.text-left {
+    text-align: center;
+    order: 1;
+}
+
+.section2{
+    text-align: center;
+    border: 3px solid var(--assent-1);
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: auto ;
+    color: black;
+}
+.imgs img{
+    display: flex;
+    width: 210px;
+}
+.imgs{
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display:grid ;
+    background-color: var(--assent-1);
+    grid-template-columns: 89% 11%;
+    text-align: center;
+    align-items: center ;
+}
+.foot img{
+    width: 50px;
+    align-items: end;
 }
