@@ -14,7 +14,7 @@ header{
     text-align: center;
     border: 3px solid var(--assent-1);
     display: grid;
-    grid-template-columns: 90px 3fr 2fr ;
+    grid-template-columns: 90px 2fr 2fr ;
     align-items: center;
     font-size: 18px;
 }
