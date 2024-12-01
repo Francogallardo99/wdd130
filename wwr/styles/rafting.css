@@ -31,6 +31,7 @@ header h1{
     display: flex;
     gap: 100px;
     text-align: right;
+    margin-right: 40px;
 }
 p{
     background-color: var(--assent-1);
