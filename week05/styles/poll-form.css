@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    background-color: rgb(107, 127, 244);
+    color: white;
+}   
+header{
+    text-align: center;
+}
+h1{
+    color: aquamarine;
+    text-align: center;
+    margin-top: 20px;
+}
+form{
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px;
+    border-radius: 20px;
+    background-color: rgb(46, 145, 148);
+    display: grid;
+}
+fieldset{
+    display: grid;
+    gap: 5px;
+    border: none;    
+}
+legend{
+    padding: 5px;
+    font-size: 1.7rem;
+}
+label, input , button , select , textarea{
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    text-align: right;
+    padding-right: 2rem;
+}
+input , select , textarea{
+    padding: 10px;
+    font-size: 1.1rem;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
