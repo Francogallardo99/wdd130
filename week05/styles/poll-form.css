@@ -51,3 +51,31 @@ input[type="checkbox"]{
     height: 20px;
     vertical-align: bottom;
 }
+button{
+    background-color:rgb(107, 127, 244);
+    border-radius: 20px;
+    font-style: italic;
+    border: 2px solid black;
+    color: white;
+}
+button:hover{
+    background-color: darkblue;
+}
+footer{
+    font-size: 1rem;
+    border-top: solid 2px black;
+    padding: 5px;
+    
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem;
+}
