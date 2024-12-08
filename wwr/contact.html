@@ -25,31 +25,71 @@
             </nav>
         </header>
         <main>
-            <h2>
-                Our information
-            </h2>
-            <h3>Address</h3>
-            <p>Av. Guillermo Rawson 453, Puerto Madryn, Chubut</p>
-            <h3>Phone number</h3>
-            <p>+549 280-6532578</p>
-            <h3>Email</h3>
-            <p>rafting@madryn.com</p>
-            <h3>Google map</h3>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6389.151948219865!2d-65.03843293250321!3d-42.757917054228145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1733533439022!5m2!1ses-419!2sar" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="column">
+                <div class="info">
+                    <h1>
+                        Contact us
+                    </h1>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Av. Guillermo Rawson 453, Puerto Madryn, Chubut</p>
+                        <h3>Phone number</h3>
+                        <p>+549 280-6532578</p>
+                        <h3>Email</h3>
+                        <p>rafting@madryn.com</p>
+                        <h3>Google map</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6389.151948219865!2d-65.03843293250321!3d-42.757917054228145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1733533439022!5m2!1ses-419!2sar" width="500" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+                <form>
+                    <fieldset>
+                        <legend> Personal information</legend>
+                                <label for="fullname"> What is your Full name?</label>
+                                <input type="text" id="fullname" name="fullname">
+                                <br>
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email">
+                    </fieldset>
+
+                <fieldset>    
+                <legend>Porpous of yor message</legend>
+                <div class="radio-group">
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation">
+                    <label for="reservation">Reservation</label>
+                    <input type="radio" id="question" name="purpose" value="Question">
+                    <label for="question">Question</label>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                </fieldset>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Submit</button>
+                </form>
             </div>
-            <figure>
-                <img src="images/employee.jpg" alt="Happy employee" width="250">
-                <figcaption>Daiana Hernandez</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee1.jpg" alt="Happy employee" width="250">
-                <figcaption>Grant Gwin</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg" alt="Happy employee" width="250">
-                <figcaption>Henry Folkman</figcaption>
-            </figure>
+            <div class="figure">
+                <figure>
+                    <img src="images/employee.jpg" alt="Happy employee" width="250">
+                    <figcaption>Daiana Hernandez</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee1.jpg" alt="Happy employee" width="250">
+                    <figcaption>Grant Gwin</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Happy employee" width="250">
+                    <figcaption>Henry Folkman</figcaption>
+                </figure>
+            </div>
         </main>
         <footer class="foot">
             <p class="pfooter"> © 2024  Mountain Rafting -  Franco Gallardo</p>
@@ -62,6 +102,9 @@
                 </a>
                 <a href="https://instagram.com">
                     <img  src="images/instagram.webp" alt="Instagram logo" width="100">
+                </a>
+                <a href="https://app.moqups.com/Zv9talRGAGXpPPolAgFU7MMgu8u0vxOG/view/page/a9a5f8d52">
+                    <img src="images/m.webp ">  
                 </a>
             </nav>
         </footer>

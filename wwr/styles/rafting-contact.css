@@ -124,7 +124,7 @@ p{
 .foot{
     display:grid ;
     background-color: var(--assent-1);
-    grid-template-columns: 89% 11%;
+    grid-template-columns: 82% 18%;
     text-align: center;
     align-items: center ;
 }
