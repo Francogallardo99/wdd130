@@ -190,8 +190,7 @@ textarea{
     height: 200px;
 }
 .column{
-    display: flex;
-    grid-column: 50%;
+    display: flex;  
     justify-content: space-around;
     align-items: center;
     background-color: lightblue;
