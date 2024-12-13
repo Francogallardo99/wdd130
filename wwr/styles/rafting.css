@@ -219,3 +219,6 @@ h1{
 .trips p{
     font-size: 1.3rem;
 }
+.pics{
+    display: flex;
+}
