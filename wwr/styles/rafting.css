@@ -195,3 +195,27 @@ textarea{
     align-items: center;
     background-color: lightblue;
 }
+h1{
+    text-align: center;
+}
+.trips{
+    text-align: center;
+    border: 3px solid var(--assent-1);
+    background-color:  #BBCEA8;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.trips h1 {
+    grid-row: 3; 
+    font-size: 2rem;
+    margin: 0;
+}
+.trips img{
+    float: left;
+    border: solid white 3px;
+    border-radius: 20px;
+    margin: 5px
+}
+.trips p{
+    font-size: 1.3rem;
+}
