@@ -37,7 +37,8 @@ p{
     background-color: var(--assent-1);
     color: white;
     padding: 1%;
-    text-align:center
+    text-align:center;
+    border-radius: 10px;
 }
  footer a{
     text-decoration: none;
@@ -47,7 +48,7 @@ p{
 }
 .hero h1{
     position: absolute;
-    color: var(--principal-color);
+    color:#f4f4f4;
     left: 38%;
     bottom: 60%;
     font-size: 3rem;
@@ -266,4 +267,49 @@ table{
     table-layout: fixed;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.newsletter {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.newsletter h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.grid {
+    background-color: #BBCEA8;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.grid h2 {
+    font-size: 2.2em;
+    grid-column: span 2; 
+    color: #f4f4f4;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;      
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
 }

@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="A rafting website offers exciting adventure trips on various rivers, with details on pricing, safety, and available packages.">
+        <meta name="description" content="Discover the Ideal Website to Start Your New Rafting Adventure at the Best Price">
         <meta name="author" content="Franco Gallardo">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="styles/rafting.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <title>Wireframe - About Us</title>
+        <title>Wireframe - Home</title>
     </head>
     <body>
         <header>
@@ -26,50 +26,63 @@
         </header>
         <main>
             <div class="hero">
-                <img src="images/rafting.jpg" alt="Group of people having fun rafting">
-                <h1>Mountain Rafting</h1>
-                <article>
-                    <img src="images/happy-rafting-group.jpg" alt="Happy rafting group">
-                    <p>Our mission is to provide unforgettable rafting experiences, promoting adventure, safety, and respect for nature. We are committed to creating an exciting and safe environment for all our clients, fostering teamwork and connection with the natural surroundings as we explore the world's most stunning rivers. Live the adventure, conquer the waters.</p>
-                </article>
+                <img src="images/Blue-Rapids-Outfitters.jpg" alt="Group of people having fun rafting">
+                <h1 class="title">Start the adventure</h1>
             </div>
-            <section class="section1">
-            <h2>Our History</h2>
-            <div class="content">
-            <p class="text-left">
-                Over ten years ago, a group of friends passionate about adventure and respect for nature decided to create a rafting company. They started with a small fleet and a single river, but their love for the sport and commitment to safety and the environment allowed them to grow quickly. Over the years, we have conquered new rivers, offering our clients the chance to experience unique adventures while enjoying the thrill of white-water rapids.
-            </p>
-            <p class="text-right">
-                Over ten years ago, a group of friends passionate about adventure and respect for nature decided to create a rafting company. They started with a small fleet and a single river, but their love for the sport and commitment to safety and the environment allowed them to grow quickly. Over the years, we have conquered new rivers, offering our clients the chance to experience unique adventures while enjoying the thrill of white-water rapids.
-            </p>
-            <img src="images/rafting6.jpg" alt="Rafting photos" >
-            </div>
+            <section class="cta-container">
+                <h2>¿Would you like to see our destinations?</h2>
+                <a href="trips.html" class="cta-button">Our Trips</a>
             </section>
-            <section class="section2">
-                <h2>¡Adventure Awaits You!</h2>
-                <div class="imgs">
-                    <figure>
-                        <img src="images/rafting1.jpg" alt="Rafting photos">
-                        <figcaption>Wildwater Rapids</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting2.jpg" alt="Rafting photos">
-                        <figcaption>Thunder Creek Adventures</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting3.jpg" alt="Rafting photos">
-                        <figcaption>Silverstone River Expeditions</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting4.jpg" alt="Rafting photos">
-                        <figcaption>Cascade Canyon Rafting</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/rafting5.jpg" alt="Rafting photos">
-                        <figcaption>Blue Rapids Outfitters</figcaption>
-                    </figure>
+
+            <div class="grid">
+                <h2>The best experience of your life awaits you</h2>
+                
+                <div class="grid1">
+                    <div class="item">
+                        <p>Embark on an exciting rafting adventure on the most spectacular rivers. Our site offers information on the best routes, expert guides, and everything you need to enjoy a safe and adrenaline-filled experience. Join us and experience the thrill of rafting in nature!</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/Cascade-Canyon-Rafting.jpg" alt="Rafting picture" width="600">
+                    </div>
+                    <div class="item">
+                        <img src="images/happy-rafting-group.jpg" alt="Rafting group" width="600">
+                    </div>
+                    <div class="item">
+                        <p>Embark on the adventure of a lifetime with our rafting page! Here you will find the best deals and destinations to enjoy white water rafting, with options for all levels of experience. From thrilling rapids to peaceful river rides, we have something for everyone. Our team of expert guides ensures a safe and exciting experience, while our user reviews help you choose the perfect destination. Don't wait any longer, the best rafting experience awaits you with just one click!</p>
+                    </div>
+                    <div class="item">
+                        <p>On our rafting page, we highlight our dedicated and skilled employees who make a safe and thrilling experience possible for everyone. With highly trained guides, passionate about adventure and committed to safety, we ensure that every trip is memorable and full of fun. Meet our team and join the adventure!</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/employee.jpg" alt="Our employees" width="500">
+                    </div>
+                    <div class="item">
+                        <img src="images/rafting5.jpg" alt="Rafting picture" width="500">
+                    </div>
+                    <div class="item">
+                        <p>Enjoy an exciting rafting experience at unbeatable prices. We offer affordable packages without compromising on quality or safety. Adventure, fun, and competitive rates so everyone can enjoy rafting at its best!</p>
+                    </div>
                 </div>
+            </div>
+            
             </section>
+
+            <section class="newsletter">
+                <h2>Subscribe to our Newsletter</h2>
+                <form action="/subscribe" method="post">
+                    <label for="name">Your name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="email">Number:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+
         </main>
         <footer class="foot">
             <p class="pfooter"> © 2024  Mountain Rafting -  Franco Gallardo</p>
